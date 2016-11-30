@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/caminin/Documents/Git/Ez/ezlanguage/src/modules/Include_c++/String_addon.cpp
+String_addon.h
+/home/caminin/Documents/Git/Ez/ezlanguage/src/modules/Include_c++/String_addon.h
+
+/home/caminin/Documents/Git/Ez/ezlanguage/src/modules/Include_c++/String_addon.h
+iostream
+-
+string
+-
+vector
+-
+algorithm
+-
+

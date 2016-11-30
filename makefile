@@ -40,7 +40,7 @@ all: $(EXEC)
 
 EZ_language_compiler : obj/lex.yy.c obj/EZ_language_compiler.tab.cpp obj/EZ_language_compiler.tab.hpp $(MOD_OBJ) 
 	@echo  "\033[1;33mCréation du compilateur en compilant les sources\033[0m"
-	$(CC) -o bin/$@ obj/EZ_language_compiler.tab.cpp obj/lex.yy.c $(MOD_OBJ) $(CC_FLAGS) -ll 
+	$(CC) -o bin/$@ obj/EZ_language_compiler.tab.cpp obj/lex.yy.c $(MOD_OBJ) $(CC_FLAGS) -lfl 
 
 obj/lex.yy.c: src/EZ_language_compiler.$(LEX_EXT) obj/EZ_language_compiler.tab.hpp
 	@echo "\033[1;33mInterprétation du fichier Lex\033[0m"
